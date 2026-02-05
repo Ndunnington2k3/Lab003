@@ -28,7 +28,7 @@ def get_message():
 username = get_username()
 group = get_group()
 
-#it breaks if I don't do this here. I'll leave it be. I put it here when printing everything as a test.
+#it breaks if I don't do this here, can't do in definitions. I'll let it be. I put it here when printing everything as a test.
 
 def initializechat():
     node = Pyre(username)
@@ -52,4 +52,4 @@ def startchat():
 initializechat()
 startchat()
 
-#So far, it asks for an initial message before connecting. I think that's fine because I know how it works.
+#So far, it asks for an initial message before connecting. I think that's fine because I know how it works, kind of.
